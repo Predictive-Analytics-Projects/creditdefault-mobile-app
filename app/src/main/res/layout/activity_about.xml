@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/toolbar2">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_editor"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="4dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_vertical|start"
+                android:layout_margin="8dp"
+                android:drawableStart="@drawable/ic_person_outline_white_64dp"
+                android:text="Bobby Chin"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+            <TextView
+                android:id="@+id/email_editor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_margin="8dp"
+                android:paddingStart="64dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="4dp"
+                android:text="bobbychin2017@u.northwestern.edu"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_vertical|start"
+                android:layout_margin="8dp"
+                android:paddingStart="64dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Data Scientist/Editor"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_manager"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="4dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_vertical|start"
+                android:layout_margin="8dp"
+                android:drawableStart="@drawable/ic_person_outline_white_64dp"
+                android:text="Gurjeet Singh"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+            <TextView
+                android:id="@+id/email_manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_margin="8dp"
+                android:paddingStart="64dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="4dp"
+                android:text="gurjeetsingh@u.northwestern.edu"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_vertical|start"
+                android:layout_margin="8dp"
+                android:paddingStart="64dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Data Scientist/Project Manager"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_lead"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="4dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_vertical|start"
+                android:layout_margin="8dp"
+                android:drawableStart="@drawable/ic_person_outline_white_64dp"
+                android:text="Isha Shukla"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+            <TextView
+                android:id="@+id/email_lead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_margin="8dp"
+                android:paddingStart="64dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="4dp"
+                android:text="ishashukla2018@u.northwestern.edu"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_vertical|start"
+                android:layout_margin="8dp"
+                android:paddingStart="64dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Data Engineer/Tech Lead"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_sme"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="4dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_vertical|start"
+                android:layout_margin="8dp"
+                android:drawableStart="@drawable/ic_person_outline_white_64dp"
+                android:text="Rajasekhar Chalasani"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+            <TextView
+                android:id="@+id/email_sme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_margin="8dp"
+                android:paddingStart="64dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="4dp"
+                android:text="rajasekharchalasani2017@northwestern.edu"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_vertical|start"
+                android:layout_margin="8dp"
+                android:paddingStart="64dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Data Scientiest/Finance SME"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_finance"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="4dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_vertical|start"
+                android:layout_margin="8dp"
+                android:drawableStart="@drawable/ic_person_outline_white_64dp"
+                android:text="Steve Tserkezis"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
+
+            <TextView
+                android:id="@+id/email_finance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:layout_margin="8dp"
+                android:paddingStart="64dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="4dp"
+                android:text="steve.tserkezis@gmail.com"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_vertical|start"
+                android:layout_margin="8dp"
+                android:paddingStart="64dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Data Scientist/Finance"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Loan$tar</string>
+    <string name="txt_bad_loans_avoided">Bad Loans Avoided</string>
+    <string name="txt_good_loans_lost">Good Loans Lost</string>
+    <string name="string_action_about">About</string>
+    <string name="text_current_default_rate">Current Default Rate</string>
+    <string name="text_total_impact">Total Impact</string>
+</resources>
